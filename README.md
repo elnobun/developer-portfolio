@@ -20,11 +20,11 @@ accessible and performant outcome.
   - Intuitive CSS
 
 ## Todos 
--[x] Project Setup
-    -[x] Install typescript: `npm i -D typescript @types/react @types/node`
-    -[x] Install tailwindcss: ` npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
-    -[x] Initialize tailwindcss & postcss config: `npx tailwindcss init -p`
-    -[x] Remove unused styles in production (tailwindcss.config.js).
-    -[x] Include Tailwind in global styles.
--[ ] Setup responsiveness (mobile and desktop)
--[ ] Creating the Navbar
+- [x] Project Setup
+    - [x] Install typescript: `npm i -D typescript @types/react @types/node`
+    - [x] Install tailwindcss: ` npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
+    - [x] Initialize tailwindcss & postcss config: `npx tailwindcss init -p`
+    - [x] Remove unused styles in production (tailwindcss.config.js).
+    - [x] Include Tailwind in global styles.
+- [ ] Setup responsiveness (mobile and desktop)
+- [ ] Creating the Navbar
