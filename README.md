@@ -26,5 +26,6 @@ accessible and performant outcome.
     - [x] Initialize tailwindcss & postcss config: `npx tailwindcss init -p`
     - [x] Remove unused styles in production (tailwindcss.config.js).
     - [x] Include Tailwind in global styles.
-- [ ] Setup responsiveness (mobile and desktop)
+- [x] Setup responsiveness (mobile and desktop)
+- [x] Sidebar Component
 - [ ] Creating the Navbar
