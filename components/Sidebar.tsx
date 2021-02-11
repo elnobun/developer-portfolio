@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 import {GoLocation} from "react-icons/go"
-import {GiTie} from "react-icons/gi"
 import {MdMail, MdFileDownload} from "react-icons/md"
 
 const Sidebar = () => {
