@@ -12,33 +12,33 @@ const Sidebar = () => {
                 />
             </div>
 
-            <div className="rounded-b-lg shadow-md bg-white p-4">
-                <hgroup>
+            <div className="rounded-b-lg shadow-md bg-white py-4 px-2">
+                <hgroup className="lg:text-left md:text-center">
                     <h1 className="text-2xl font-bold">Ellis Enobun</h1>
                     <h2 className="text-lg text-gray-700">Frontend Web Developer</h2>
                 </hgroup>
-                <div className="pt-4">
 
-                    <div className="flex items-center mb-1.5">
-                        <GoLocation/><span className="ml-2 text-sm">London, UK</span>
+                <div className="pt-4">
+                    <div className="flex items-center mb-0.5">
+                        <GoLocation className="text-lg"/><span className="ml-2">London, UK</span>
                     </div>
 
 
                     <a href="mailto:elnobun@gmail.com" target="_blank"
-                       className="flex items-center mb-1.5 hover:underline">
-                        <MdMail/><span className="ml-2 text-sm">elnobun@gmail.com</span>
+                       className="flex items-center mb-0.5 hover:underline">
+                        <MdMail className="text-lg"/><span className="ml-2">elnobun@gmail.com</span>
                     </a>
 
 
                     <a href="https://github.com/elnobun" target="_parent"
-                       className="flex items-center mb-1.5 hover:underline">
-                        <AiFillGithub/>
-                        <span className="ml-2 text-sm">github/elnobun</span>
+                       className="flex items-center mb-0.5 hover:underline">
+                        <AiFillGithub className="text-lg"/>
+                        <span className="ml-2">github/elnobun</span>
                     </a>
                     <a href="https://linkedin.com/in/ellisenobun/" target="_parent"
                        className="flex items-center hover:underline">
-                        <AiFillLinkedin/>
-                        <span className="ml-2 text-sm">linkedin/ellisenobun</span>
+                        <AiFillLinkedin className="text-lg"/>
+                        <span className="ml-2">linkedin/ellisenobun</span>
                     </a>
                 </div>
             </div>
