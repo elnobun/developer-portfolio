@@ -1,6 +1,8 @@
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 import {GoLocation} from "react-icons/go"
 import {MdMail, MdFileDownload} from "react-icons/md"
+import {BsToggleOff} from "react-icons/bs";
+import {IoSunnyOutline} from "react-icons/io5";
 
 const Sidebar = () => {
     return (
@@ -44,12 +46,16 @@ const Sidebar = () => {
             </div>
 
 
-            <div className="my-4 flex justify-center">
+            <div className="my-4 flex flex-col justify-center">
                 <a href="" download="name"
                    className="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded flex items-center justify-center">
                     <MdFileDownload/>
                     <span className="ml-2">Download Resume</span>
                 </a>
+                <p className="flex items-center justify-center pt-2">
+                    <BsToggleOff className="cursor-pointer mr-2 w-10 h-10"/>
+                    <span><IoSunnyOutline className="w-5 h-5" /></span>
+                </p>
             </div>
         </>
     )
