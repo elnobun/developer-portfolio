@@ -30,11 +30,11 @@ accessible and performant outcome.
 - [x] Sidebar Component
     - [ ] Theme mode (dark / light)
 - [x] Create the Navbar
-    -[x] Navbar should have the about, projects, and resume pages 
-    -[x] Keep track of the active element of each page. Make sure its a `strong` string type (useState<string>(''))
-    -[x] If the selected currentItem is not the activeItem, setActiveItem to current item when it's selected.
-    -[x] The current activeItem should be displayed on the left-hand side of the navbar.
-    -[x] Ensure that the home route did mount, to ensure the route path is equal to the default current item.
+    - [x] Navbar should have the about, projects, and resume pages 
+    - [x] Keep track of the active element of each page. Make sure its a `strong` string type (useState<string>(''))
+    - [x] If the selected currentItem is not the activeItem, setActiveItem to current item when it's selected.
+    - [x] The current activeItem should be displayed on the left-hand side of the navbar.
+    - [x] Ensure that the home route did mount, to ensure the route path is equal to the default current item.
 - [x] Setup data service on the root directory to hold all the data.
     - [x] Create a typescript interface in `services/types.ts` to describe the shape of the object data.
 - [x] Create an api for the services: `api/services` - For good measure.
