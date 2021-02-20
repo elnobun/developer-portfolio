@@ -28,7 +28,7 @@ accessible and performant outcome.
     - [x] Include Tailwind in global styles.
 - [x] Setup responsiveness (mobile and desktop)
 - [x] Sidebar Component
-  - [ ] Theme mode (dark / light)
+    - [ ] Theme mode (dark / light)
 - [x] Create the Navbar
     -[x] Navbar should have the about, projects, and resume pages 
     -[x] Keep track of the active element of each page. Make sure its a `strong` string type (useState<string>(''))
@@ -40,8 +40,8 @@ accessible and performant outcome.
 - [x] Create an api for the services: `api/services` - For good measure.
     - [x] Implement the `getServerSideProps()` to fetch the service data via the api available to the home page as props.
 - [x] Display the interface in the home page.
-  - [x] Create a ServiceCard component
-  - [x] Create function to format HTML in the strings.
+    - [x] Create a ServiceCard component
+    - [x] Create function to format HTML in the strings.
 - [ ] Setup filter
     - [ ] Filter should be displayed below the Navbar
     - [ ] Filter should be displayed only when on the projects page.
