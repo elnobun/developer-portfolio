@@ -11,7 +11,7 @@ const Home = () => {
                    feedback.</p>
             </div>
             <div>
-                <h2 className="p-4 my-2 font-bold uppercase">What I Offer</h2>
+                <h2 className="p-4 my-2 font-bold uppercase">Technology Stack</h2>
                 <div className="grid lg:grid-cols-2 gap-4 flex-grow">
                     {
                         services.map((service, index) => (

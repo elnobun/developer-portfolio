@@ -1,9 +1,12 @@
 import {RiComputerLine} from "react-icons/ri";
 import {SiMaterialdesignicons} from "react-icons/si";
 import {AiOutlineApi} from "react-icons/ai";
-import {InterfaceService} from "./types";
+import {InterfaceEducation, InterfaceExperience, InterfaceService, InterfaceSkill} from "./types";
 import {BiServer} from "react-icons/bi";
+import {BsCircleFill} from "react-icons/bs";
+import {GiGraduateCap} from "react-icons/gi";
 
+// Services
 export const services: InterfaceService[] = [
     {
         Icon: RiComputerLine,
@@ -32,5 +35,92 @@ export const services: InterfaceService[] = [
         tech: ["WordPress", "Contentful"],
         description:
             `I can develop site templates and themes in line with budget, brief and test to QA criteria, using WordPress. I ensure the build is in line with signed off designs and functionality.`,
+    }
+]
+
+// Experience
+export const experiences: InterfaceExperience[] = [
+    {
+        job: 'Web Developer / Product Analyst',
+        company: 'Digital Echoes, London UK',
+        period: 'Sept. 2019 - Present'
+    },
+    {
+        job: 'Lead Web Developer',
+        company: 'DevHype, London UK',
+        period: 'Jan 2018 - Aug 2019'
+    },
+    {
+        job: 'Code Mentor / Reviewer',
+        company: 'Udacity Inc. Sans Francisco, CA, US',
+        period: 'Jun 2016 - Nov 2017'
+    }
+
+]
+
+// Education
+export const educations: InterfaceEducation[] = [
+    {
+        Icon: GiGraduateCap,
+        school: 'University Of Leicester',
+        degree: 'Masters, Leicester UK'
+    },
+    {
+        Icon: GiGraduateCap,
+        school: 'Udacity Inc.',
+        degree: 'FSND NanoDegree, US'
+    }
+]
+
+// Language and Frameworks
+export const languages: InterfaceSkill[] = [
+    {
+        Icon: BsCircleFill,
+        name: "HTML",
+        level: "85%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "SCSS Preprocessor",
+        level: "70%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "CSS Grid",
+        level: "80%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Javascript",
+        level: "75%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "React & Redux",
+        level: "70%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Bootstrap",
+        level: "90%"
+    }
+]
+
+// Tools
+export const tools: InterfaceSkill[] = [
+    {
+        Icon: BsCircleFill,
+        name: "Figma",
+        level: "85%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Adobe XD",
+        level: "85%"
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Illustrator",
+        level: "70%"
     }
 ]

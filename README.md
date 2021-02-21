@@ -4,6 +4,10 @@ which was built using only ReactJS. This remake takes a
 slightly different approach, resulting in a more SEO, 
 accessible and performant outcome.
 
+> Desktop View - Light Mode
+
+<img width="1440" alt="Screenshot 2021-02-20 at 14 45 32" src="https://user-images.githubusercontent.com/15114201/108599649-58f40400-738a-11eb-828d-333f8e19a486.png">
+
 ## Technology Used
 - NextJS
   - Server Side Rendering
@@ -42,6 +46,12 @@ accessible and performant outcome.
 - [x] Display the interface in the home page.
     - [x] Create a ServiceCard component
     - [x] Create function to format HTML in the strings.
+- [x] Setup Resume Page
+    - [x] In `types.ts`, create the interface for the skill bars - Name, Level, Icon.
+    - [x] In `data.ts`, create an array for the interface. One for the Lang & Frameworks, and other for Tools.
+    - [x] Resume should have Experience, Education, Frameworks & Languages, Tools component.
+    - [x] Setup interfaces and components for the resume page.
+    - [x] Display information for resume page.
 - [ ] Setup filter
     - [ ] Filter should be displayed below the Navbar
     - [ ] Filter should be displayed only when on the projects page.

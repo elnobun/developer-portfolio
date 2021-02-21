@@ -41,7 +41,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="bg-white p-4 flex justify-between">
+        <nav className={`bg-white p-4 flex justify-between rounded-t-lg ${pathname === "/resume" ? "shadow-md rounded-lg" : ""}`}>
             <span className="font-bold uppercase text-green-600 text-lg">{activeItem}</span>
             <div className="flex space-x-6 text-gray-600">
                 <NavItem
