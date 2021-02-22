@@ -6,22 +6,34 @@ accessible and performant outcome.
 
 > Desktop View - Light Mode
 
-<img width="1440" alt="Screenshot 2021-02-20 at 14 45 32" src="https://user-images.githubusercontent.com/15114201/108599649-58f40400-738a-11eb-828d-333f8e19a486.png">
+<img width="1240" alt="Screenshot 2021-02-21 at 21 23 12" src="https://user-images.githubusercontent.com/15114201/108639179-2251e280-748b-11eb-9479-4e20fccf8e75.png">
+
+> Desktop View - Dark Mode
+
+<img width="1240" alt="Screenshot 2021-02-21 at 21 25 48" src="https://user-images.githubusercontent.com/15114201/108639240-6fce4f80-748b-11eb-84ab-60d1ec63840c.png">
 
 ## Technology Used
 - NextJS
-  - Server Side Rendering
-  - Static Generation
-  - Image optimization feature
-  - Built in typescript, css module & scss support
+    - Server Side Rendering
+    - Static Generation
+    - Image optimization feature
+    - Built in typescript, css module & scss support
     
 
 - TypeScript
-  - Javascript in the "right" context
+    - Javascript in the "right" context
     
 
 - Tailwind CSS
-  - Intuitive CSS
+    - Intuitive CSS
+    
+
+- next-themes
+    - Allows for dynamically changing theme color
+    
+
+- Framer Motion
+    - Cool Animations
 
 ## Milestones 
 - [x] Project Setup
@@ -52,6 +64,13 @@ accessible and performant outcome.
     - [x] Resume should have Experience, Education, Frameworks & Languages, Tools component.
     - [x] Setup interfaces and components for the resume page.
     - [x] Display information for resume page.
+- [x] Implement Dark Mode
+    - [x] Change `dark mode` in tailwind.config.js to `class`. This is for manual toggling.
+    - [x] Install `next-themes`.
+    - [x] Wrap the application in `_app` with the `ThemeProvider`.
+    - [x] Add the class attribute to the provider.
+    - [x] Keep track of the theme color in Sidebar using hooks.
+    - [x] Create function to change theme.
 - [ ] Setup filter
     - [ ] Filter should be displayed below the Navbar
     - [ ] Filter should be displayed only when on the projects page.

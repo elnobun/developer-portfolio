@@ -1,13 +1,11 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, {Html, Head, Main, NextScript} from 'next/document'
 
 class MyDocument extends Document {
     render() {
         return (
             <Html lang="en">
-                <Head>
-                    <title>Ellis Enobun | Web Developer & Designer</title>
-                </Head>
-                <body>
+                <Head />
+                <body className="dark:bg-dark">
                     <Main />
                     <NextScript />
                 </body>
