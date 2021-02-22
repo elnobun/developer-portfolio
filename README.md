@@ -6,11 +6,11 @@ accessible and performant outcome.
 
 > Desktop View - Light Mode
 
-<img width="1240" alt="Screenshot 2021-02-21 at 21 23 12" src="https://user-images.githubusercontent.com/15114201/108639179-2251e280-748b-11eb-9479-4e20fccf8e75.png">
+<img width="1240" alt="Screenshot 2021-02-22 at 12 09 01" src="https://user-images.githubusercontent.com/15114201/108706638-cd53b200-7506-11eb-86c5-fb936b4f333e.png">
 
 > Desktop View - Dark Mode
 
-<img width="1240" alt="Screenshot 2021-02-21 at 21 25 48" src="https://user-images.githubusercontent.com/15114201/108639240-6fce4f80-748b-11eb-84ab-60d1ec63840c.png">
+<img width="1240" alt="Screenshot 2021-02-22 at 12 10 03" src="https://user-images.githubusercontent.com/15114201/108706723-eeb49e00-7506-11eb-8a63-e805d0d6e0a8.png">
 
 ## Technology Used
 - NextJS
