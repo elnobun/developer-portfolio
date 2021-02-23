@@ -5,13 +5,20 @@ import {MdMail, MdFileDownload} from "react-icons/md"
 import {IoSunnyOutline} from "react-icons/io5";
 import {IoMdMoon} from "react-icons/io";
 import {CgToggleOff, CgToggleOn} from "react-icons/cg";
+import {useEffect, useState} from "react";
 
 const Sidebar = () => {
-
+    const [isMounted, setIsMounted] = useState(false)
     const {theme, setTheme} = useTheme()
 
-    const changeTheme = () => {
-        setTheme(theme === 'light' ? 'dark': 'light')
+    useEffect(() => {
+        setIsMounted(true)
+    }, [])
+
+    const toggleTheme = () => {
+        if (isMounted) {
+            setTheme(theme === 'light' ? 'dark' : 'light')
+        }
     }
 
     return (
@@ -63,22 +70,17 @@ const Sidebar = () => {
                     <MdFileDownload/>
                     <span className="ml-2">Download Resume</span>
                 </a>
-                {
-                    theme === "light" && (
-                        <div className="flex items-center justify-center pt-2">
-                            <CgToggleOff onClick={changeTheme} className="cursor-pointer mr-2 w-10 h-10"/>
-                            <IoSunnyOutline className="w-8 h-8" />
-                        </div>
-                    )
-                }
-                {
-                    theme === "dark" && (
-                        <div className="flex items-center justify-center pt-2">
-                            <CgToggleOn onClick={changeTheme} className="cursor-pointer mr-2 w-10 h-10 text-white"/>
-                            <IoMdMoon className="w-6 h-6 text-white" />
-                        </div>
-                    )
-                }
+                {theme === "light" ? (
+                    <div className="flex items-center justify-center pt-2">
+                        <CgToggleOff onClick={toggleTheme} className="cursor-pointer mr-2 w-10 h-10"/>
+                        <IoSunnyOutline className="w-8 h-8" />
+                    </div>
+                ) : (
+                    <div className="flex items-center justify-center pt-2">
+                        <CgToggleOn onClick={toggleTheme} className="cursor-pointer mr-2 w-10 h-10 text-white"/>
+                        <IoMdMoon className="w-6 h-6 text-white" />
+                    </div>
+                )}
             </div>
         </>
     )
