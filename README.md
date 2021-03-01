@@ -74,3 +74,14 @@ accessible and performant outcome.
 - [ ] Setup filter
     - [ ] Filter should be displayed below the Navbar
     - [ ] Filter should be displayed only when on the projects page.
+
+> Project Page
+- [x] Set up the interface for projects data in `types.ts`.
+- [x] Set up the data for projects in `data.ts`.
+- [x] Create a project card component.
+- [x] Loop through the project data in projects.tsx, and make data available to the card component.
+- [x] Display projects in the card component.
+    - [x] Create another section, that shows the single project.
+    - [x] Implement logic to display single project when parent project is clicked.
+        - [x] Keep track of the single project. The initial state is false.
+        - [x] When the parent image is clicked, show the single project - set state to true.
