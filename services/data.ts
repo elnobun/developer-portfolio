@@ -1,7 +1,7 @@
 import {RiComputerLine} from "react-icons/ri";
 import {SiMaterialdesignicons} from "react-icons/si";
 import {AiOutlineApi} from "react-icons/ai";
-import {InterfaceEducation, InterfaceExperience, InterfaceService, InterfaceSkill} from "./types";
+import {InterfaceEducation, InterfaceExperience, InterfaceProject, InterfaceService, InterfaceSkill} from "./types";
 import {BiServer} from "react-icons/bi";
 import {BsCircleFill} from "react-icons/bs";
 import {GiGraduateCap} from "react-icons/gi";
@@ -123,4 +123,99 @@ export const tools: InterfaceSkill[] = [
         name: "Illustrator",
         level: "70%"
     }
+]
+
+// Projects
+export const projects: InterfaceProject[] = [
+    {
+        name: "Budget Manager",
+        description:
+            "A Web Application that keeps track of your expenses and help you manage budget.",
+        image_URL: "/images/budget.png",
+        deployed_URL: "https://react-budget-manager-app.herokuapp.com",
+        github_URL: "https://github.com/elnobun/react-budget-application",
+        category: ["react"],
+        techStack: ["React", "Momentjs", "SCSS", "firebase"]
+    },
+    {
+        name: "E-Commerce Website",
+        description:
+            "Puredrinks.co.uk company website e-commerce products with user payment Gateway.",
+        image_URL: "/images/ecommerce.png",
+        deployed_URL: "https://puredrinks.co.uk/",
+        github_URL: "",
+        category: ["wordpress"],
+        techStack: ["Wordpress", "WooCommerce", "Analytics"]
+    },
+    {
+        name: "Charity Website",
+        description:
+            "London Rangers Community Charity Website.",
+        image_URL: "/images/charity.png",
+        deployed_URL: "https://community.londonrangers.org.uk/",
+        github_URL: "",
+        category: ["wordpress"],
+        techStack: ["Wordpress", "Elementor", "Analytics"]
+    },
+    {
+        name: "Movie Hub",
+        description:
+            "Search a list of your favourite movies",
+        image_URL: "/images/movieHub.png",
+        deployed_URL: "https://moviehub.netlify.app/",
+        github_URL: "",
+        category: ["react"],
+        techStack: ["React", "themoviedb API", "SCSS"]
+    },
+    {
+        name: "Contact Manager Web App",
+        description:
+            "A Web Application that manages a contact list.",
+        image_URL: "/images/contactManager.png",
+        deployed_URL: "https://elnobun.github.io/contact-management-app/#/",
+        github_URL: "https://github.com/elnobun/contact-management-app",
+        category: ["javascript"],
+        techStack: ["Javascript", "Json API", "Bootstrap"]
+    },
+    {
+        name: "Quote Generator",
+        description:
+            "A Web Application that displays inspiring quotes on every refresh",
+        image_URL: "/images/quote.png",
+        deployed_URL: "https://elnobun.github.io/quote-generator/",
+        github_URL: "https://github.com/elnobun/quote-generator",
+        category: ["javascript"],
+        techStack: ["Javascript", "Quotes API", "SCSS"]
+    },
+    {
+        name: "Advanced Todos Application",
+        description:
+            "A regular todos application with some extra features",
+        image_URL: "/images/todoApp.png",
+        deployed_URL: "https://ellis-todo-app.netlify.app/",
+        github_URL: "",
+        category: ["javascript"],
+        techStack: ["Javascript", "SCSS", "moment.js", "Webpack"]
+    },
+    {
+        name: "Hangman Game",
+        description:
+            "An interesting hangman game to test your cognitive ability.",
+        image_URL: "/images/hangman.png",
+        deployed_URL: "https://ellis-hangman.netlify.app/",
+        github_URL: "",
+        category: ["javascript"],
+        techStack: ["Javascript", "SCSS", "Webpack"]
+    },
+    {
+        name: "Notes App",
+        description:
+            "Keep record of important events, and never forget.",
+        image_URL: "/images/notesApp.png",
+        deployed_URL: "https://ellis-notes-app.netlify.app/",
+        github_URL: "",
+        category: ["javascript"],
+        techStack: ["Javascript", "SCSS", "moment.js", "Webpack"]
+    }
+
 ]

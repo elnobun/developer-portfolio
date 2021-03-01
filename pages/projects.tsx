@@ -1,27 +1,22 @@
-import {BsFilter} from "react-icons/bs";
-import {useState} from "react";
+import {projects} from "../services/data";
+import ProjectCard from "../components/ProjectCard";
 
-const projects = () => {
-    const [searchText, setSearchText] = useState("")
-
-    // Define a function to handle the search input.
-    const handleSearchInput = (e) => {
-        console.log(e.target.value)
-        setSearchText(e.target.value)
-    }
+const Projects = () => {
 
     return (
-        <div className="px-4 py-8 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">
-            <div className="grid grid-cols-6 gap-2">
-                <div className="border lg:col-span-4 md:col-span-4 col-span-12">
-                    <input type="text" value={searchText} onChange={handleSearchInput} placeholder="Search Projects"/>
-                </div>
-                <div className=" border lg:col-span-2 flex">
-                    <BsFilter />
-                </div>
+        <div className="border-t dark:border-dark overflow-y-scroll" style={{ height: "82vh"}}>
+            <nav className="bg-white dark:bg-dark-card p-4">Navigation</nav>
+            <div className="grid grid-cols-12 gap-4 relative py-4">
+                {
+                    projects.map((project, index) => (
+                        <div className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-lg overflow-hidden bg-white shadow-md">
+                            <ProjectCard project={project} key={index} />
+                        </div>
+                    ))
+                }
             </div>
         </div>
     )
 }
 
-export default projects
+export default Projects

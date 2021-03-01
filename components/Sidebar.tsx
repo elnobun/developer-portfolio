@@ -70,12 +70,13 @@ const Sidebar = () => {
                     <MdFileDownload/>
                     <span className="ml-2">Download Resume</span>
                 </a>
-                {theme === "light" ? (
+                {theme === "light" && (
                     <div className="flex items-center justify-center pt-2">
                         <CgToggleOff onClick={toggleTheme} className="cursor-pointer mr-2 w-10 h-10"/>
                         <IoSunnyOutline className="w-8 h-8" />
                     </div>
-                ) : (
+                )}
+                {theme === "dark" && (
                     <div className="flex items-center justify-center pt-2">
                         <CgToggleOn onClick={toggleTheme} className="cursor-pointer mr-2 w-10 h-10 text-white"/>
                         <IoMdMoon className="w-6 h-6 text-white" />

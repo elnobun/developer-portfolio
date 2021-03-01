@@ -15,7 +15,7 @@ function MyApp({Component, pageProps}) {
                     <div className="lg:col-span-3 col-span-12">
                         <Sidebar/>
                     </div>
-                    <div className="lg:col-span-9 col-span-12">
+                    <div className="lg:col-span-9 col-span-12 dark:text-gray-300">
                         <Navbar/>
                         <Component {...pageProps} />
                     </div>

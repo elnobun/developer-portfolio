@@ -25,3 +25,17 @@ export interface InterfaceEducation {
     school: string,
     degree: string,
 }
+
+export type Category = "designs"|"javascript"|"react"|"express"|"wordpress"
+export interface InterfaceProject {
+    name: string,
+    description: string,
+    image_URL: string,
+    deployed_URL: string,
+    github_URL: string,
+    category: Category[],
+    techStack: string[]
+}
+
+
+
