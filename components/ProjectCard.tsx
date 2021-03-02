@@ -4,7 +4,7 @@ import {AiFillGithub } from "react-icons/ai";
 import {MdClose, MdInsertLink} from "react-icons/md";
 
 const ProjectCard: FunctionComponent<{ project: InterfaceProject }> = ({project}) => {
-    const {name, techStack, category, github_URL, image_URL, description, deployed_URL} = project
+    const {name, techStack, github_URL, image_URL, description, deployed_URL} = project
 
     const [showDetail, setShowDetail] = useState(false)
 
