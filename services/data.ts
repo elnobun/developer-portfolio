@@ -216,6 +216,17 @@ export const projects: InterfaceProject[] = [
         github_URL: "",
         category: ["javascript"],
         techStack: ["Javascript", "SCSS", "moment.js", "Webpack"]
+    },
+    {
+        name: "Google-Search Design",
+        description:
+            "This is a mini-project to rebuild google.com homepage using HTML and SCSS. The goal of this mini-project " +
+            "is to self-reflect on how elements get placed on the page and roughly how they get styled and aligned.",
+        image_URL: "/images/google.png",
+        deployed_URL: "https://elnobun.github.io/google-search-page/",
+        github_URL: "https://elnobun.github.io/google-search-page/",
+        category: ["designs"],
+        techStack: ["HTML", "SCSS", "GIT"]
     }
 
 ]

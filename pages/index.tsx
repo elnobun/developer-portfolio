@@ -4,7 +4,7 @@ import ServiceCard from "../components/ServiceCard";
 const Home = () => {
     return (
         <div className="flex flex-col flex-grow">
-            <div className="px-4 py-8 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">
+            <div className="p-4 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">
                 <p className="dark:text-gray-200">FrontEnd web developer with experience in design, developing and maintaining responsive websites across
                    diverse industries. Proficient in developing user stories, use cases, user interfaces, writing and
                    testing codes, troubleshooting simple/complex issues, and implementing new features based on user

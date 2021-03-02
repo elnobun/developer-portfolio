@@ -9,8 +9,11 @@ function MyApp({Component, pageProps}) {
         <ThemeProvider attribute="class">
             <Head>
                 <title>Ellis Enobun | Web Developer & Designer</title>
+                <meta name="title" content="Ellis Enobun | FrontEnd Web Developer & Designer"/>
+                <meta name="description"
+                      content="FrontEnd web developer with experience in design, developing and maintaining responsive websites. Proficient in developing user stories, use cases, user interfaces, writing and testing codes, implementing new features based on user feedback.."/>
             </Head>
-            <div className="flex-1 lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm mx-auto lg:p-10 p-5">
+            <div className="flex-1 lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm mx-auto p-5">
                 <div className="grid lg:gap-4 gap-2 grid-cols-12">
                     <div className="lg:col-span-3 col-span-12">
                         <Sidebar/>
