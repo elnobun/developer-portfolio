@@ -85,3 +85,6 @@ accessible and performant outcome.
     - [x] Implement logic to display single project when parent project is clicked.
         - [x] Keep track of the single project. The initial state is false.
         - [x] When the parent image is clicked, show the single project - set state to true.
+- [x] Create project navbar elements component
+    - [x] Project Navbar component, should have a function component that pulls Category data from data types.
+    - [x] Keep track of Navbar links in the Projects component, so that when each is clicked, it shows the projects associated with it.
