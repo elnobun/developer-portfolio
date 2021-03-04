@@ -198,7 +198,7 @@ export const projects: InterfaceProject[] = [
         techStack: ["Javascript", "SCSS", "moment.js", "Webpack"]
     },
     {
-        name: "Hangman Game",
+        name: "Hangman Game (Desktop Only)",
         description:
             "An interesting hangman game to test your cognitive ability.",
         image_URL: "/images/hangman.png",

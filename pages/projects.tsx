@@ -21,11 +21,11 @@ const Projects = () => {
     }
 
     return (
-        <div className="bg-white border-t dark:border-dark overflow-y-scroll" style={{ height: "82vh"}}>
+        <div className="bg-white border-t dark:border-dark overflow-y-scroll" style={{ height: "85vh"}}>
             <nav className="bg-white dark:bg-dark-card p-4">
                 <ProjectsNavbar handleProjectsCategory={handleProjectsCategory} active={active}/>
             </nav>
-            <div className="grid grid-cols-12 gap-4 relative px-4 py-8 border-t">
+            <div className="grid grid-cols-12 gap-4 dark:bg-dark-card border-t dark:border-dark relative px-4 py-4 border-t">
                 {
                     projects.map((project, index) => (
                         <div className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white shadow-md">
