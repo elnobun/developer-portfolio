@@ -35,6 +35,7 @@ export interface InterfaceProject {
     github_URL: string,
     category: Category[],
     techStack: string[]
+    isOpen: Boolean
 }
 
 

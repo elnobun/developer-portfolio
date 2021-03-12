@@ -135,7 +135,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://react-budget-manager-app.herokuapp.com",
         github_URL: "https://github.com/elnobun/react-budget-application",
         category: ["react"],
-        techStack: ["React", "Momentjs", "SCSS", "firebase"]
+        techStack: ["React", "Momentjs", "SCSS", "firebase"],
+        isOpen: false
     },
     {
         name: "Food Recipe Website",
@@ -145,7 +146,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://foodfit.ellispace.com",
         github_URL: "",
         category: ["wordpress"],
-        techStack: ["Wordpress", "Elementor", "JetEngine"]
+        techStack: ["Wordpress", "Elementor", "JetEngine"],
+        isOpen: false
     },
     {
         name: "E-Commerce Website",
@@ -155,7 +157,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://puredrinks.co.uk/",
         github_URL: "",
         category: ["wordpress"],
-        techStack: ["Wordpress", "WooCommerce", "Analytics"]
+        techStack: ["Wordpress", "WooCommerce", "Analytics"],
+        isOpen: false
     },
     {
         name: "Charity Website",
@@ -165,7 +168,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://community.londonrangers.org.uk/",
         github_URL: "",
         category: ["wordpress"],
-        techStack: ["Wordpress", "Elementor", "Analytics"]
+        techStack: ["Wordpress", "Elementor", "Analytics"],
+        isOpen: false
     },
     {
         name: "Movie Hub",
@@ -175,7 +179,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://moviehub.netlify.app/",
         github_URL: "",
         category: ["react"],
-        techStack: ["React", "themoviedb API", "SCSS"]
+        techStack: ["React", "themoviedb API", "SCSS"],
+        isOpen: false
     },
     {
         name: "Contact Manager Web App",
@@ -185,7 +190,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://elnobun.github.io/contact-management-app/#/",
         github_URL: "https://github.com/elnobun/contact-management-app",
         category: ["javascript"],
-        techStack: ["Javascript", "Json API", "Bootstrap"]
+        techStack: ["Javascript", "Json API", "Bootstrap"],
+        isOpen: false
     },
     {
         name: "Quote Generator",
@@ -195,7 +201,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://elnobun.github.io/quote-generator/",
         github_URL: "https://github.com/elnobun/quote-generator",
         category: ["javascript"],
-        techStack: ["Javascript", "Quotes API", "SCSS"]
+        techStack: ["Javascript", "Quotes API", "SCSS"],
+        isOpen: false
     },
     {
         name: "Advanced Todos Application",
@@ -205,7 +212,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://ellis-todo-app.netlify.app/",
         github_URL: "",
         category: ["javascript"],
-        techStack: ["Javascript", "SCSS", "moment.js", "Webpack"]
+        techStack: ["Javascript", "SCSS", "moment.js", "Webpack"],
+        isOpen: false
     },
     {
         name: "Hangman Game (Desktop Only)",
@@ -215,7 +223,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://ellis-hangman.netlify.app/",
         github_URL: "",
         category: ["javascript"],
-        techStack: ["Javascript", "SCSS", "Webpack"]
+        techStack: ["Javascript", "SCSS", "Webpack"],
+        isOpen: false
     },
     {
         name: "Notes App",
@@ -225,7 +234,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://ellis-notes-app.netlify.app/",
         github_URL: "",
         category: ["javascript"],
-        techStack: ["Javascript", "SCSS", "moment.js", "Webpack"]
+        techStack: ["Javascript", "SCSS", "moment.js", "Webpack"],
+        isOpen: false
     },
     {
         name: "Google-Search Design",
@@ -236,7 +246,8 @@ export const projects: InterfaceProject[] = [
         deployed_URL: "https://elnobun.github.io/google-search-page/",
         github_URL: "https://elnobun.github.io/google-search-page/",
         category: ["designs"],
-        techStack: ["HTML", "SCSS", "GIT"]
+        techStack: ["HTML", "SCSS", "GIT"],
+        isOpen: false
     }
 
 ]

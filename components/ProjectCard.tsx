@@ -1,12 +1,13 @@
-import {FunctionComponent, useState} from "react";
+import {FunctionComponent,useState} from "react";
 import {InterfaceProject} from "../services/types";
-import {AiFillGithub } from "react-icons/ai";
+import {AiFillGithub} from "react-icons/ai";
 import {MdClose, MdInsertLink} from "react-icons/md";
 
 const ProjectCard: FunctionComponent<{ project: InterfaceProject }> = ({project}) => {
     const {name, techStack, github_URL, image_URL, description, deployed_URL} = project
 
     const [showDetail, setShowDetail] = useState(false)
+
 
     return (
         <>
@@ -17,14 +18,14 @@ const ProjectCard: FunctionComponent<{ project: InterfaceProject }> = ({project}
             {
                 showDetail && (
                     <div
-                        className="p-4 py-16 border-t dark:border-dark absolute top-0 left-0 z-10 h-auto w-full grid md:grid-cols-2 gap-x-6 bg-white dark:bg-dark-card">
+                        className="h-full p-4 py-16 border-t dark:border-dark absolute top-0 left-0 z-10 h-auto w-full grid md:grid-cols-2 gap-x-6 bg-white dark:bg-dark-card">
                         <div>
                             <img src={image_URL} alt={`${name} image`} className="rounded-md w-full"/>
                             <div className="flex justify-center my-4 space-x-4">
                                 {github_URL &&
                                 <a href={github_URL}
                                    className="bg-gray-300 dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200 text-gray-800 py-2 px-4 space-x-2 rounded flex items-center">
-                                    <AiFillGithub size={20} /><span>Github</span>
+                                    <AiFillGithub size={20}/><span>Github</span>
                                 </a>}
                                 {deployed_URL &&
                                 <a href={deployed_URL}
