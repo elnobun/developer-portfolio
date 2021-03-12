@@ -29,7 +29,7 @@ const ProjectCard: FunctionComponent<{ project: InterfaceProject }> = ({project}
                                 {deployed_URL &&
                                 <a href={deployed_URL}
                                    className="bg-gray-300 dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200 text-gray-800 py-2 px-4 space-x-2 rounded flex items-center">
-                                    <MdInsertLink size={20}/><span>Project</span>
+                                    <MdInsertLink size={20}/><span>View Project</span>
                                 </a>}
                             </div>
                         </div>

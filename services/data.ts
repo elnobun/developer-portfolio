@@ -138,6 +138,16 @@ export const projects: InterfaceProject[] = [
         techStack: ["React", "Momentjs", "SCSS", "firebase"]
     },
     {
+        name: "Food Recipe Website",
+        description:
+            "A Food Recipe website to find the perfect main meal, desert or accompaniment for a next meal.",
+        image_URL: "/images/foodFit.png",
+        deployed_URL: "https://foodfit.ellispace.com",
+        github_URL: "",
+        category: ["wordpress"],
+        techStack: ["Wordpress", "Elementor", "JetEngine"]
+    },
+    {
         name: "E-Commerce Website",
         description:
             "Puredrinks.co.uk company website e-commerce products with user payment Gateway.",
