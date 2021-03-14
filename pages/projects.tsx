@@ -28,7 +28,7 @@ const Projects = () => {
             <div className="grid grid-cols-12 gap-4 dark:bg-dark-card border-t dark:border-dark relative px-4 py-4 border-t">
                 {
                     projects.map((project, index) => (
-                        <div className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white shadow-md">
+                        <div className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white dark:bg-dark  shadow-md">
                             <ProjectCard project={project} key={index} />
                         </div>
                     ))

@@ -2,6 +2,7 @@ import {FunctionComponent,useState} from "react";
 import {InterfaceProject} from "../services/types";
 import {AiFillGithub} from "react-icons/ai";
 import {MdClose, MdInsertLink} from "react-icons/md";
+import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{ project: InterfaceProject }> = ({project}) => {
     const {name, techStack, github_URL, image_URL, description, deployed_URL} = project
@@ -12,15 +13,16 @@ const ProjectCard: FunctionComponent<{ project: InterfaceProject }> = ({project}
     return (
         <>
             <div className="cursor-pointer" onClick={() => setShowDetail(true)}>
-                <img src={image_URL} alt={`${name} image`}/>
-                <h2 className="my-2 text-center dark:text-black">{name}</h2>
+                {/*<img src={image_URL} alt={`${name} image`}/>*/}
+                <Image src={image_URL} alt={`${name} image`} width="300px" height="150px" layout="responsive"/>
+                <h2 className="my-2 text-center dark:text-gray-300">{name}</h2>
             </div>
             {
                 showDetail && (
                     <div
                         className="h-full p-4 py-16 border-t dark:border-dark absolute top-0 left-0 z-10 h-auto w-full grid md:grid-cols-2 gap-x-6 bg-white dark:bg-dark-card">
                         <div>
-                            <img src={image_URL} alt={`${name} image`} className="rounded-md w-full"/>
+                            <Image src={image_URL} alt={`${name} image`} width="300px" height="150px" layout="responsive" className="rounded-md w-full"/>
                             <div className="flex justify-center my-4 space-x-4">
                                 {github_URL &&
                                 <a href={github_URL}

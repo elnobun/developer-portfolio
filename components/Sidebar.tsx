@@ -6,6 +6,7 @@ import {IoSunnyOutline} from "react-icons/io5";
 import {IoMdMoon} from "react-icons/io";
 import {CgToggleOff, CgToggleOn} from "react-icons/cg";
 import {useEffect, useState} from "react";
+import Image from "next/image";
 
 const Sidebar = () => {
     const [isMounted, setIsMounted] = useState(false)
@@ -24,9 +25,13 @@ const Sidebar = () => {
     return (
         <>
             <div className="rounded-t-lg bg-black overflow-hidden">
-                <img className="w-48 h-48 mx-auto"
-                     src="https://www.ellisenobun.com/static/media/ellis.a5b25a4d.png"
-                     alt="Picture of the author"
+                <Image className="mx-auto"
+                       src="https://www.ellisenobun.com/static/media/ellis.a5b25a4d.png"
+                       alt="Picture of the author"
+                       width="192px"
+                       height="192px"
+                       layout="intrinsic"
+                       quality="100"
                 />
             </div>
 
@@ -70,16 +75,16 @@ const Sidebar = () => {
                     <MdFileDownload/>
                     <span className="ml-2">Download Resume</span>
                 </a>
-                {theme === "light" && (
+                {isMounted && theme === "light" && (
                     <div className="flex items-center justify-center pt-2">
                         <CgToggleOff onClick={toggleTheme} className="cursor-pointer mr-2 w-10 h-10"/>
-                        <IoSunnyOutline className="w-8 h-8" />
+                        <IoSunnyOutline className="w-8 h-8"/>
                     </div>
                 )}
-                {theme === "dark" && (
+                {isMounted && theme === "dark" && (
                     <div className="flex items-center justify-center pt-2">
                         <CgToggleOn onClick={toggleTheme} className="cursor-pointer mr-2 w-10 h-10 text-white"/>
-                        <IoMdMoon className="w-6 h-6 text-white" />
+                        <IoMdMoon className="w-6 h-6 text-white"/>
                     </div>
                 )}
             </div>
