@@ -28,8 +28,8 @@ const Sidebar = () => {
                 <Image className="mx-auto"
                        src="https://www.ellisenobun.com/static/media/ellis.a5b25a4d.png"
                        alt="Picture of the author"
-                       width="192px"
-                       height="192px"
+                       width="250px"
+                       height="250px"
                        layout="intrinsic"
                        quality="100"
                 />
