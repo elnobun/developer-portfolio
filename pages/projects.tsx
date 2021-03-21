@@ -3,13 +3,15 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
 import {useState} from "react";
 import {Category} from "../services/types";
+import {fadeInUp, routeAnimation, stagger} from "../animations";
+import {motion} from "framer-motion";
 
 const Projects = () => {
 
     const [projects, setProjects] = useState(projectsData)
     const [active, setActive] = useState("all")
 
-    const handleProjectsCategory = (category:Category | "all") => {
+    const handleProjectsCategory = (category: Category | "all") => {
         if (category === "all") {
             setProjects(projectsData)
             setActive(category)
@@ -21,20 +23,32 @@ const Projects = () => {
     }
 
     return (
-        <div className="bg-white border-t dark:border-dark overflow-y-scroll" style={{ height: "85vh"}}>
+        <motion.div
+            variants={routeAnimation}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            className="bg-white dark:bg-dark-card border-t dark:border-dark overflow-y-scroll" style={{height: "85vh"}}>
             <nav className="bg-white dark:bg-dark-card p-4">
                 <ProjectsNavbar handleProjectsCategory={handleProjectsCategory} active={active}/>
             </nav>
-            <div className="grid grid-cols-12 gap-4 dark:bg-dark-card border-t dark:border-dark relative px-4 py-4 border-t">
+            <motion.div
+                variants={stagger}
+                initial="initial"
+                animate="animate"
+                className="grid grid-cols-12 gap-4 dark:bg-dark-card border-t dark:border-dark relative px-4 py-4 border-t">
                 {
                     projects.map((project, index) => (
-                        <div className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white dark:bg-dark  shadow-md">
-                            <ProjectCard project={project} key={index} />
-                        </div>
+                        <motion.div
+                            key={index}
+                            variants={fadeInUp}
+                            className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white dark:bg-dark shadow-md">
+                            <ProjectCard project={project}/>
+                        </motion.div>
                     ))
                 }
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
 
