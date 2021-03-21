@@ -128,6 +128,7 @@ export const tools: InterfaceSkill[] = [
 // Projects
 export const projects: InterfaceProject[] = [
     {
+        id: 1,
         name: "Budget Manager",
         description:
             "A Web Application that keeps track of your expenses and help you manage budget.",
@@ -139,6 +140,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 2,
         name: "Food Recipe Website",
         description:
             "A Food Recipe website to find the perfect main meal, desert or accompaniment for a next meal.",
@@ -150,6 +152,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 3,
         name: "E-Commerce Website",
         description:
             "Puredrinks.co.uk company website e-commerce products with user payment Gateway.",
@@ -161,6 +164,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 4,
         name: "Charity Website",
         description:
             "London Rangers Community Charity Website.",
@@ -172,6 +176,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 5,
         name: "Movie Hub",
         description:
             "Search a list of your favourite movies",
@@ -183,6 +188,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 6,
         name: "Contact Manager Web App",
         description:
             "A Web Application that manages a contact list.",
@@ -194,6 +200,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 7,
         name: "Quote Generator",
         description:
             "A Web Application that displays inspiring quotes on every refresh",
@@ -205,6 +212,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 8,
         name: "Advanced Todos Application",
         description:
             "A regular todos application with some extra features",
@@ -216,6 +224,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 9,
         name: "Hangman Game (Desktop Only)",
         description:
             "An interesting hangman game to test your cognitive ability.",
@@ -227,6 +236,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 10,
         name: "Notes App",
         description:
             "Keep record of important events, and never forget.",
@@ -238,6 +248,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false
     },
     {
+        id: 11,
         name: "Google-Search Design",
         description:
             "This is a mini-project to rebuild google.com homepage using HTML and SCSS. The goal of this mini-project " +

@@ -28,6 +28,7 @@ export interface InterfaceEducation {
 
 export type Category = "designs"|"javascript"|"react"|"express"|"wordpress"
 export interface InterfaceProject {
+    id: number,
     name: string,
     description: string,
     image_URL: string,

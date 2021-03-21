@@ -70,7 +70,7 @@ const Sidebar = () => {
 
 
             <div className="my-4 py-4 px-4">
-                <a href="" download="name"
+                <a href="/assets/Resume.pdf" download="Resume.pdf"
                    className="bg-gray-300 dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200 text-gray-800 py-2 px-4 rounded flex items-center justify-center">
                     <MdFileDownload/>
                     <span className="ml-2">Download Resume</span>

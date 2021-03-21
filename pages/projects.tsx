@@ -10,6 +10,8 @@ const Projects = () => {
 
     const [projects, setProjects] = useState(projectsData)
     const [active, setActive] = useState("all")
+    const [showDetail, setShowDetail] = useState<number|null>(null)
+
 
     const handleProjectsCategory = (category: Category | "all") => {
         if (category === "all") {
@@ -43,7 +45,7 @@ const Projects = () => {
                             key={index}
                             variants={fadeInUp}
                             className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white dark:bg-dark shadow-md">
-                            <ProjectCard project={project}/>
+                            <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
                         </motion.div>
                     ))
                 }
