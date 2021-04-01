@@ -2,7 +2,6 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import '../styles/globals.css'
 import {ThemeProvider} from "next-themes";
-import Head from "next/head";
 import {AnimatePresence} from "framer-motion";
 
 function MyApp({Component, pageProps, router}) {
