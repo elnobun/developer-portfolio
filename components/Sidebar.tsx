@@ -28,8 +28,8 @@ const Sidebar = () => {
                 <Image className="mx-auto"
                        src="/images/ellis.png"
                        alt="Picture of the author"
-                       width="200px"
-                       height="200px"
+                       width="329"
+                       height="314"
                        layout="intrinsic"
                        quality="100"
                 />
