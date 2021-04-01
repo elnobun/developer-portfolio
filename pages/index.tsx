@@ -15,16 +15,14 @@ const Home = () => {
             <Head>
                 <title>About page | Ellis Enobun | Web Developer & Designer</title>
             </Head>
-            <motion.div variants={fadeInUp}
-                        initial="initial"
-                        animate="animate"
-                        className="p-4 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">
+            <div
+                className="p-4 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">
                 <p className="dark:text-gray-200 text-justify">
                     FrontEnd web developer with experience in responsive design, developing, A&B Optimization
                     experiment, and maintaining websites across diverse industries. Proficient in developing user
                     stories, use cases, user interfaces, writing and testing codes, troubleshooting simple/complex
                     issues, and implementing new features based on user feedback.</p>
-            </motion.div>
+            </div>
             <div className="my-2">
                 <h2 className="p-4 font-bold uppercase dark:text-gray-200">Technology Stack</h2>
                 <motion.div

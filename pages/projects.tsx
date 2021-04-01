@@ -26,11 +26,7 @@ const Projects = () => {
     }
 
     return (
-        <motion.div
-            variants={routeAnimation}
-            initial="initial"
-            animate="animate"
-            exit="exit"
+        <div
             className="bg-white dark:bg-dark-card border-t dark:border-dark overflow-y-scroll" style={{height: "85vh"}}>
             <Head>
                 <title>Projects page | Ellis Enobun | Web Developer & Designer</title>
@@ -54,7 +50,7 @@ const Projects = () => {
                     ))
                 }
             </motion.div>
-        </motion.div>
+        </div>
     )
 }
 
