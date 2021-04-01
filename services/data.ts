@@ -27,14 +27,14 @@ export const services: InterfaceService[] = [
         title: 'UI/UX Design',
         tech: ["Adobe XD", "Figma", "Illustrator"],
         description:
-            `I find creative ways to solve UX problems & the ability to turn an idea into reality. Develop UI mockups and prototypes  that clearly illustrate how the platform functions and looks like.`,
+            `I find creative ways to solve UX problems, with the ability to turn an idea into reality. I Develop UI mockups and prototypes  that clearly illustrate how the platform functions and looks like.`,
     },
     {
         Icon: AiOutlineApi,
         title: 'Content Management Systems',
         tech: ["WordPress", "Contentful"],
         description:
-            `I can develop site templates and themes in line with budget, brief and test to QA criteria, using WordPress. I ensure the build is in line with signed off designs and functionality.`,
+            `I can develop site templates and themes within budget, brief and test to QA criteria, using WordPress. I ensure the build is in-line with signed off designs and functionality.`,
     }
 ]
 
@@ -48,7 +48,7 @@ export const experiences: InterfaceExperience[] = [
     {
         job: 'Lead Web Developer',
         company: 'DevHype, London UK',
-        period: 'Jan 2018 - Aug 2019'
+        period: 'Nov 2017 - Aug 2019'
     },
     {
         job: 'Code Mentor / Reviewer',
@@ -68,7 +68,7 @@ export const educations: InterfaceEducation[] = [
     {
         Icon: GiGraduateCap,
         school: 'Udacity Inc.',
-        degree: 'FSND NanoDegree, US'
+        degree: 'Full Stack Web Development, US'
     }
 ]
 

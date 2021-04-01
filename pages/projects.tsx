@@ -5,6 +5,7 @@ import {useState} from "react";
 import {Category} from "../services/types";
 import {fadeInUp, routeAnimation, stagger} from "../animations";
 import {motion} from "framer-motion";
+import Head from "next/head";
 
 const Projects = () => {
 
@@ -31,6 +32,9 @@ const Projects = () => {
             animate="animate"
             exit="exit"
             className="bg-white dark:bg-dark-card border-t dark:border-dark overflow-y-scroll" style={{height: "85vh"}}>
+            <Head>
+                <title>Projects page | Ellis Enobun | Web Developer & Designer</title>
+            </Head>
             <nav className="bg-white dark:bg-dark-card p-4">
                 <ProjectsNavbar handleProjectsCategory={handleProjectsCategory} active={active}/>
             </nav>
