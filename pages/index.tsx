@@ -17,7 +17,7 @@ const Home = () => {
             </Head>
             <div
                 className="p-4 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">
-                <p className="dark:text-gray-200 text-justify">
+                <p className="dark:text-gray-200">
                     FrontEnd web developer with experience in responsive design, developing, A&B Optimization
                     experiment, and maintaining websites across diverse industries. Proficient in developing user
                     stories, use cases, user interfaces, writing and testing codes, troubleshooting simple/complex
