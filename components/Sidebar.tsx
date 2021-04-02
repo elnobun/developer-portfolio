@@ -41,22 +41,22 @@ const Sidebar = () => {
                     <h2 className="text-md text-gray-700 dark:text-gray-300">Frontend Web Developer</h2>
                 </hgroup>
 
-                <div className="pt-8 pb-2 md:flex md:flex-row md:justify-center lg:flex lg:flex-col">
-                    <div className="flex items-center mb-0.5 md:mr-4 justify-center lg:justify-start">
+                <div className="pt-8 pb-2 flex flex-wrap justify-evenly md:flex md:flex-row md:justify-center lg:flex lg:flex-col">
+                    <div className="flex items-center mb-1.5 md:mr-4 justify-center lg:justify-start">
                         <GoLocation className="text-md dark:text-gray-300"/>
                         <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">London, UK</span>
                     </div>
 
 
                     <a href="mailto:elnobun@gmail.com" target="_blank" aria-label="Email"
-                       className="flex items-center mb-0.5 md:mr-4 justify-center lg:justify-start">
+                       className="flex items-center mb-1.5 md:mr-4 justify-center lg:justify-start">
                         <MdMail className="text-md dark:text-gray-300"/>
                         <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">elnobun@gmail.com</span>
                     </a>
 
 
                     <a href="https://github.com/elnobun" target="_parent" aria-label="Github"
-                       className="flex items-center mb-0.5 hover:underline md:mr-4 justify-center lg:justify-start">
+                       className="flex items-center mb-1.5 hover:underline md:mr-4 justify-center lg:justify-start">
                         <AiFillGithub className="text-md dark:text-gray-300"/>
                         <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">github/elnobun</span>
                     </a>
