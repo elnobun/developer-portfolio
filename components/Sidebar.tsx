@@ -24,44 +24,44 @@ const Sidebar = () => {
 
     return (
         <>
-            <div className="rounded-t-lg bg-black overflow-hidden flex justify-center">
+            <div className="rounded-t-lg bg-black overflow-hidden flex justify-center p-4">
                 <Image className="mx-auto"
                        src="/images/ellis.png"
                        alt="Picture of the author"
-                       width="329"
-                       height="314"
+                       width="200"
+                       height="191"
                        layout="intrinsic"
                        quality="100"
                 />
             </div>
 
-            <div className="rounded-b-lg shadow-md bg-white dark:bg-dark-card py-2 px-4">
-                <hgroup className="lg:text-left md:text-center text-center">
+            <div className="rounded-b-lg shadow-md bg-white dark:bg-dark-card py-2">
+                <hgroup className="lg:text-left md:text-center text-center ml-4">
                     <h1 className="text-2xl font-bold dark:text-gray-300">Ellis Enobun</h1>
                     <h2 className="text-md text-gray-700 dark:text-gray-300">Frontend Web Developer</h2>
                 </hgroup>
 
-                <div className="pt-8 pb-2 flex flex-wrap justify-evenly md:flex md:flex-row md:justify-center lg:flex lg:flex-col">
-                    <div className="flex items-center mb-1.5 md:mr-4 justify-center lg:justify-start">
+                <div className="pt-8 pb-2 sm:mx-4 flex flex-wrap justify-evenly md:flex md:flex-row md:justify-center lg:flex lg:flex-col">
+                    <div className="flex items-center mb-2 md:mr-2 justify-center lg:justify-start">
                         <GoLocation className="text-md dark:text-gray-300"/>
-                        <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">London, UK</span>
+                        <span className="ml-1 md:ml-1 dark:text-gray-300 text-sm">London, UK</span>
                     </div>
 
 
                     <a href="mailto:elnobun@gmail.com" target="_blank" aria-label="Email"
-                       className="flex items-center mb-1.5 md:mr-4 justify-center lg:justify-start">
+                       className="flex items-center mb-2 md:mr-2 justify-center lg:justify-start">
                         <MdMail className="text-md dark:text-gray-300"/>
-                        <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">elnobun@gmail.com</span>
+                        <span className="ml-1 md:ml-1 dark:text-gray-300 text-sm">elnobun@gmail.com</span>
                     </a>
 
 
                     <a href="https://github.com/elnobun" target="_parent" aria-label="Github"
-                       className="flex items-center mb-1.5 hover:underline md:mr-4 justify-center lg:justify-start">
+                       className="flex items-center mb-2 hover:underline md:mr-2 justify-center lg:justify-start">
                         <AiFillGithub className="text-md dark:text-gray-300"/>
-                        <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">github/elnobun</span>
+                        <span className="ml-1 md:ml-1 dark:text-gray-300 text-sm">github/elnobun</span>
                     </a>
                     <a href="https://linkedin.com/in/ellisenobun/" target="_parent" aria-label="LinkedIn"
-                       className="flex items-center hover:underline md:mr-4 justify-center lg:justify-start">
+                       className="flex items-center hover:underline md:mr-2 justify-center lg:justify-start">
                         <AiFillLinkedin className="text-md dark:text-gray-300"/>
                         <span className="ml-2 md:ml-1 dark:text-gray-300 text-sm">linkedin/ellisenobun</span>
                     </a>
