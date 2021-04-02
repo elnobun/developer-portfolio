@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
 import {useState} from "react";
 import {Category} from "../services/types";
-import {fadeInUp, routeAnimation, stagger} from "../animations";
+import {fadeInUp, stagger} from "../animations";
 import {motion} from "framer-motion";
 import Head from "next/head";
 
@@ -29,7 +29,7 @@ const Projects = () => {
         <div
             className="bg-white dark:bg-dark-card border-t dark:border-dark overflow-y-scroll" style={{height: "85vh"}}>
             <Head>
-                <title>Projects page | Ellis Enobun | Web Developer & Designer</title>
+                <title>Projects | Ellis Enobun | Web Developer | Web Designer</title>
             </Head>
             <nav className="bg-white dark:bg-dark-card p-4">
                 <ProjectsNavbar handleProjectsCategory={handleProjectsCategory} active={active}/>

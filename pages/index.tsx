@@ -13,7 +13,7 @@ const Home = () => {
             animate="animate"
             exit="exit">
             <Head>
-                <title>About page | Ellis Enobun | Web Developer & Designer</title>
+                <title>Ellis Enobun | Web Developer | Web Designer</title>
             </Head>
             <div
                 className="p-4 bg-white dark:bg-dark-card shadow-md border-t dark:border-dark rounded-b-lg">

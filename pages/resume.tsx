@@ -19,7 +19,7 @@ const Resume = () => {
             className="py-4"
             exit="exit">
             <Head>
-                <title>Resume page | Ellis Enobun | Web Developer & Designer</title>
+                <title>Resume | Ellis Enobun | Web Developer | Web Designer</title>
             </Head>
             <div className="grid grid-cols-6 gap-4">
                 <motion.div variants={fadeInUp} initial="initial" animate="animate" className="bg-white dark:bg-dark-card shadow-md rounded-lg lg:col-span-4 col-span-12">
