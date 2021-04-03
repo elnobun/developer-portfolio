@@ -16,6 +16,23 @@ class MyDocument extends Document {
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
                     <meta name="msapplication-TileColor" content="#da532c"/>
                     <meta name="theme-color" content="#ffffff"/>
+                    {/*Open Graph Facebook*/}
+                    <meta property="og:type" content="website"/>
+                    <meta property="og:title" content="Ellis Enobun | FrontEnd Web Developer & Designer"/>
+                    <meta property="og:image" content="https://i.imgur.com/jHM3nel.png"/>
+                    <meta property="og:description"
+                          content="FrontEnd web developer with experience in design, developing and maintaining responsive websites. Proficient in developing user stories, use cases, user interfaces, writing and testing codes, implementing new features based on user feedback."/>
+                    <meta property="og:url" content="https://www.ellisenobun.com/"/>
+                    <meta name="author" content="Ellis Enobun"/>
+
+                    {/*Twitter*/}
+                    <meta property="twitter:card" content="summary_large_image"/>
+                    <meta property="twitter:url" content="https://www.ellisenobun.com/"/>
+                    <meta property="twitter:title" content="Ellis Enobun | FrontEnd Web Developer & Designer"/>
+                    <meta property="twitter:description"
+                          content="FrontEnd web developer with experience in design, developing and maintaining responsive websites. Proficient in developing user stories, use cases, user interfaces, writing and testing codes, implementing new features based on user feedback."/>
+                    <meta property="twitter:image" content="https://i.imgur.com/jHM3nel.png"/>
+                    <meta name="author" content="Ellis Enobun"/>
                 </Head>
                 <body className="dark:bg-dark">
                     <Main/>
