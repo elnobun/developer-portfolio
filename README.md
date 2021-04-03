@@ -12,6 +12,11 @@ accessible and performant outcome.
 
 <img width="1200" alt="themedark" src="https://user-images.githubusercontent.com/15114201/113451567-23ffb600-93fa-11eb-908a-3e19b96fe988.png">
 
+> Google Rating
+
+<img width="771" alt="lighthouse" src="https://user-images.githubusercontent.com/15114201/113491509-241ab700-94c9-11eb-95d4-5f7a56c1c995.png">
+
+
 ## Technology Used
 - NextJS
     - Server Side Rendering
