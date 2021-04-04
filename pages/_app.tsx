@@ -6,12 +6,12 @@ import {ThemeProvider} from "next-themes";
 function MyApp({Component, pageProps, router}) {
     return (
         <ThemeProvider attribute="class">
-            <div className="flex-1 lg:max-w-screen-xl md:max-w-screen-md sm:max-w-screen-sm mx-auto p-10">
-                <div className="grid lg:gap-4 gap-2 grid-cols-12">
-                    <div className="lg:col-span-3 col-span-12">
+            <div className="max-w-screen-xl mx-auto lg:p-5 p-2.5">
+                <div className="grid gap-4 grid-cols-12">
+                    <div className="lg:col-span-3 md:col-span-4 col-span-12">
                         <Sidebar/>
                     </div>
-                    <div className="lg:col-span-9 col-span-12 dark:text-gray-300">
+                    <div className="lg:col-span-9 md:col-span-8 col-span-12 dark:text-gray-300">
                         <Navbar/>
                         <Component {...pageProps} key={router.route}/>
                     </div>

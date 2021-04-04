@@ -9,7 +9,7 @@ const Experience: FunctionComponent<{
     return (
         <div className="px-4">
             <h3 className="font-semibold dark:text-gray-300">{job}</h3>
-            <div className="flex items-center">
+            <div className="flex items-center flex-wrap">
                 <div className="flex items-center">
                     <BsFillBriefcaseFill className="mr-1.5 text-gray-500 dark:text-gray-300"/>
                     <small className="mr-4 dark:text-gray-300">{company}</small>
