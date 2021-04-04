@@ -35,13 +35,13 @@ const Sidebar = () => {
                 />
             </div>
 
-            <div className="rounded-b-lg shadow-md bg-white dark:bg-dark-card py-2">
-                <hgroup className="lg:text-left md:text-center text-center ml-4">
+            <div className="rounded-b-lg shadow-md bg-white dark:bg-dark-card p-4">
+                <hgroup className="lg:text-left md:text-center text-center">
                     <h1 className="text-2xl font-bold dark:text-gray-300">Ellis Enobun</h1>
                     <h2 className="text-md text-gray-700 dark:text-gray-300">Frontend Web Developer</h2>
                 </hgroup>
 
-                <div className="pt-8 pb-2 sm:mx-4 flex flex-wrap justify-evenly md:flex md:flex-row md:justify-center lg:flex lg:flex-col">
+                <div className="pt-8 pb-2 flex flex-wrap justify-evenly md:flex md:flex-row md:justify-center lg:flex lg:flex-col">
                     <div className="flex items-center mb-2 md:mr-2 justify-center lg:justify-start">
                         <GoLocation className="text-md dark:text-gray-300"/>
                         <span className="ml-1 md:ml-1 dark:text-gray-300 text-sm">London, UK</span>
