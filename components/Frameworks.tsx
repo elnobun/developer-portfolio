@@ -1,5 +1,5 @@
 import {languages} from "../services/data";
-import Bar from "./Bar";
+import WebStack from "./WebStack";
 
 const Frameworks = () => {
     return (
@@ -8,7 +8,7 @@ const Frameworks = () => {
             <div className="p-4">
                 {
                     languages.map((language, index) =>
-                        <Bar key={index} data={language}/>
+                        <WebStack key={index} data={language}/>
                     )
                 }
             </div>

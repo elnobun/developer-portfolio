@@ -1,5 +1,5 @@
 import {tools} from "../services/data";
-import Bar from "./Bar";
+import WebStack from "./WebStack";
 
 const Tools = () => {
     return (
@@ -8,7 +8,7 @@ const Tools = () => {
             <div className="p-4">
                 {
                     tools.map((tool, index) =>
-                        <Bar key={index} data={tool}/>
+                        <WebStack key={index} data={tool}/>
                     )
                 }
             </div>
