@@ -27,24 +27,24 @@ const Projects = () => {
 
     return (
         <div
-            className="bg-white dark:bg-dark-card border-t dark:border-dark overflow-y-scroll" style={{height: "85vh"}}>
+            className="overflow-y-scroll bg-white border-t dark:bg-dark-card dark:border-dark" style={{height: "85vh"}}>
             <Head>
                 <title>Projects | Ellis Enobun | Web Developer | Web Designer</title>
             </Head>
-            <nav className="bg-white dark:bg-dark-card p-4">
+            <nav className="p-4 bg-white dark:bg-dark-card">
                 <ProjectsNavbar handleProjectsCategory={handleProjectsCategory} active={active}/>
             </nav>
             <motion.div
                 variants={stagger}
                 initial="initial"
                 animate="animate"
-                className="grid grid-cols-12 gap-4 dark:bg-dark-card border-t dark:border-dark relative px-4 py-4 border-t">
+                className="relative grid grid-cols-12 gap-4 px-4 py-4 dark:bg-dark-card border-top dark:border-dark">
                 {
                     projects.map((project, index) => (
                         <motion.div
                             key={index}
                             variants={fadeInUp}
-                            className="col-span-12 sm:col-span-6 lg:col-span-4 rounded-md overflow-hidden bg-white dark:bg-dark shadow-md">
+                            className="col-span-12 overflow-hidden bg-white rounded-md shadow-md sm:col-span-6 lg:col-span-4 dark:bg-dark">
                             <ProjectCard project={project} showDetail={showDetail} setShowDetail={setShowDetail}/>
                         </motion.div>
                     ))

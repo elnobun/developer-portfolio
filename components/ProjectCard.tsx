@@ -35,11 +35,11 @@ const ProjectCard: FunctionComponent<{
             </div>
             {showDetail === id && (
                 <div
-                    className="p-4 md:p-10 py-16 dark:border-dark absolute top-0 left-0 z-10 h-auto w-full grid md:grid-cols-2 gap-x-6 bg-white dark:bg-dark-card">
+                    className="absolute top-0 left-0 z-10 grid w-full h-auto p-4 py-16 bg-white md:p-10 dark:border-dark md:grid-cols-2 gap-x-6 dark:bg-dark-card">
                     <motion.div variants={stagger} initial="initial" animate="animate">
                         <motion.div
                             variants={fadeInUp}
-                            className="border-2 rounded-lg border-gray-200"
+                            className="border-2 border-gray-200 rounded-lg"
                         >
                             <Image
                                 src={image_URL}
@@ -47,7 +47,7 @@ const ProjectCard: FunctionComponent<{
                                 width="287"
                                 height="141"
                                 layout="responsive"
-                                className="rounded-md w-full"
+                                className="w-full rounded-md"
                             />
                         </motion.div>
                         <motion.div
@@ -57,7 +57,7 @@ const ProjectCard: FunctionComponent<{
                             {github_URL && (
                                 <a
                                     href={github_URL}
-                                    className="bg-gray-300 dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200 text-gray-800 py-2 px-4 space-x-2 rounded flex items-center"
+                                    className="flex items-center px-4 py-2 space-x-2 text-gray-800 bg-gray-300 rounded dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200"
                                 >
                                     <AiFillGithub size={20}/>
                                     <span>Github</span>
@@ -66,7 +66,7 @@ const ProjectCard: FunctionComponent<{
                             {deployed_URL && (
                                 <a
                                     href={deployed_URL}
-                                    className="bg-gray-300 dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200 text-gray-800 py-2 px-4 space-x-2 rounded flex items-center"
+                                    className="flex items-center px-4 py-2 space-x-2 text-gray-800 bg-gray-300 rounded dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200"
                                 >
                                     <MdInsertLink size={20}/>
                                     <span>View Project</span>
@@ -100,7 +100,7 @@ const ProjectCard: FunctionComponent<{
                     </motion.div>
                     <button
                         onClick={() => setShowDetail(null)}
-                        className="absolute p-1 rounded-full top-3 right-3 focus:outline-none bg-gray-300 dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200 text-gray-800"
+                        className="absolute p-1 text-gray-800 bg-gray-300 rounded-full top-3 right-3 focus:outline-none dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200"
                     >
                         <MdClose size={30}/>
                     </button>

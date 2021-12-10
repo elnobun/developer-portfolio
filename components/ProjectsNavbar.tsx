@@ -24,8 +24,9 @@ const ProjectsNavbar: FunctionComponent<{
     active: string;
 }> = (props) => {
     return (
-        <div className="flex items-center list-none space-x-3 overflow-x-auto">
+        <div className="flex items-center space-x-3 overflow-x-auto list-none">
             <Navbar value="all" {...props}/>
+            <Navbar value="web" {...props}/>
             <Navbar value="designs" {...props}/>
             <Navbar value="javascript" {...props}/>
             <Navbar value="react" {...props}/>

@@ -26,7 +26,7 @@ export interface InterfaceEducation {
     degree: string,
 }
 
-export type Category = "designs"|"javascript"|"react"|"express"|"wordpress"
+export type Category = "designs"|"web"|"javascript"|"react"|"express"|"wordpress"
 export interface InterfaceProject {
     id: number,
     name: string,

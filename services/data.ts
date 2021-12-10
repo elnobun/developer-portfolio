@@ -5,16 +5,17 @@ import {
     InterfaceService,
     InterfaceSkill,
 } from "./types";
+import {AiFillHtml5} from "react-icons/ai";
+import {AiOutlineApi} from "react-icons/ai";
 import {BiServer} from "react-icons/bi";
 import {BsBootstrapFill} from "react-icons/bs";
-import {GiGraduateCap} from "react-icons/gi";
-import {AiFillHtml5} from "react-icons/ai";
 import {DiSass} from "react-icons/di";
+import {FiFigma} from "react-icons/fi";
+import {GiGraduateCap} from "react-icons/gi";
 import {GrGrid} from "react-icons/gr";
 import {RiComputerLine, RiReactjsFill} from "react-icons/ri";
 import {SiAdobeillustrator, SiAdobexd, SiJavascript, SiMaterialdesignicons, SiNextDotJs} from "react-icons/si";
-import {AiOutlineApi} from "react-icons/ai";
-import {FiFigma} from "react-icons/fi";
+import {SiTypescript} from "react-icons/si";
 
 // Services
 export const services: InterfaceService[] = [
@@ -47,12 +48,17 @@ export const services: InterfaceService[] = [
 // Experience
 export const experiences: InterfaceExperience[] = [
     {
-        job: "Web Developer / Product Analyst",
-        company: "Digital Echoes, London UK",
-        period: "Sept. 2019 - Present",
+        job: "Lead Front End Web Developer",
+        company: "Tonic Fusion LLP",
+        period: "May 2021 - Present"
     },
     {
-        job: "Lead Web Developer",
+        job: "Front End Web Developer / Product Analyst",
+        company: "Digital Echoes, London UK",
+        period: "Sept 2019 - May 2021",
+    },
+    {
+        job: "Freelance Web Developer",
         company: "DevHype, London UK",
         period: "Nov 2017 - Aug 2019",
     },
@@ -81,23 +87,28 @@ export const educations: InterfaceEducation[] = [
 export const languages: InterfaceSkill[] = [
     {
         Icon: AiFillHtml5,
-        name: "HTML",
+        name: "HTML5 (Semantic)",
         level: "85%",
     },
     {
         Icon: DiSass,
         name: "SCSS Preprocessor",
-        level: "70%",
+        level: "90%",
     },
     {
         Icon: GrGrid,
         name: "CSS Grid",
-        level: "80%",
+        level: "90%",
     },
     {
         Icon: SiJavascript,
-        name: "Javascript",
+        name: "JavaScript",
         level: "75%",
+    },
+    {
+        Icon: SiTypescript,
+        name: "TypeScript",
+        level: "75%"
     },
     {
         Icon: RiReactjsFill,
@@ -111,7 +122,7 @@ export const languages: InterfaceSkill[] = [
     },
     {
         Icon: BsBootstrapFill,
-        name: "Bootstrap",
+        name: "Bootstrap 5",
         level: "90%",
     },
 ];
@@ -139,6 +150,55 @@ export const tools: InterfaceSkill[] = [
 export const projects: InterfaceProject[] = [
     {
         id: 1,
+        name: "E-Commerce Website",
+        description:
+            "Puredrinks.co.uk company website e-commerce products with user payment Gateway.",
+        image_URL: "/images/ecommerce.png",
+        deployed_URL: "https://puredrinks.co.uk/",
+        github_URL: "",
+        category: ["web", "wordpress"],
+        techStack: ["Wordpress", "WooCommerce", "Analytics"],
+        isOpen: false,
+    },
+    {
+        id: 2,
+        name: "Lonsdale Services UK",
+        description:
+            "A complete rebuild of the Lonsdale Services Uk interface, whose platform offers strategic financial long-term planning for pensioners aged 65+, retirees aged 50 and 60, mortgagors aged between 30 and 50. This build was aimed at making information and services easily accessible to this range of users.",
+        image_URL: "/images/lonsdaleServices.jpg",
+        deployed_URL: "https://www.lonsdaleservices.co.uk/",
+        github_URL: "",
+        category: ["web", "javascript"],
+        techStack: ["HTML", "SCSS", "JavaScript"],
+        isOpen: false,
+    },
+    {
+        id: 3,
+        name: "Blackphone Privy 2.0 UK",
+        description:
+            "Built this platform to promote Blackphone 2.0 Privy NEW mobile security web service, to enhance Blackphone Mobile Enterprise Data Security Service to customers and stakeholders.",
+        image_URL: "/images/blackphonePrivy2.jpg",
+        deployed_URL: "https://www.blackphone.co.uk/privy-2/",
+        github_URL: "",
+        category: ["web", "javascript"],
+        techStack: ["HTML", "SCSS", "JavaScript", "Adobe Animate"],
+        isOpen: false,
+    },
+    {
+        id: 4,
+        name: "University Of Hersfordshire Sports",
+        description:
+            "University Of Hertfordshire Sports Membership Web Service that significantly improved Students and prospective subscribers access to UH membership service.",
+        image_URL: "/images/uhSports.jpg",
+        deployed_URL: "https://sport.herts.ac.uk/",
+        github_URL: "",
+        category: ["web", "javascript"],
+        techStack: ["HTML", "SCSS", "JavaScript"],
+        isOpen: false,
+    },
+
+    {
+        id: 5,
         name: "Budget Manager",
         description:
             "A Web Application that keeps track of your expenses and help you manage budget.",
@@ -150,42 +210,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 2,
-        name: "Food Recipe Website",
-        description:
-            "A Food Recipe website to find the perfect main meal, desert or accompaniment for a next meal.",
-        image_URL: "/images/foodFit.png",
-        deployed_URL: "https://foodfit.ellispace.com",
-        github_URL: "",
-        category: ["wordpress"],
-        techStack: ["Wordpress", "Elementor", "JetEngine"],
-        isOpen: false,
-    },
-    {
-        id: 3,
-        name: "E-Commerce Website",
-        description:
-            "Puredrinks.co.uk company website e-commerce products with user payment Gateway.",
-        image_URL: "/images/ecommerce.png",
-        deployed_URL: "https://puredrinks.co.uk/",
-        github_URL: "",
-        category: ["wordpress"],
-        techStack: ["Wordpress", "WooCommerce", "Analytics"],
-        isOpen: false,
-    },
-    {
-        id: 4,
-        name: "Charity Website",
-        description: "London Rangers Community Charity Website.",
-        image_URL: "/images/charity.png",
-        deployed_URL: "https://community.londonrangers.org.uk/",
-        github_URL: "",
-        category: ["wordpress"],
-        techStack: ["Wordpress", "Elementor", "Analytics"],
-        isOpen: false,
-    },
-    {
-        id: 5,
+        id: 6,
         name: "Movie Hub",
         description: "Search a list of your favourite movies",
         image_URL: "/images/movieHub.png",
@@ -196,7 +221,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 6,
+        id: 7,
         name: "Contact Manager Web App",
         description: "A Web Application that manages a contact list.",
         image_URL: "/images/contactManager.png",
@@ -207,7 +232,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 7,
+        id: 8,
         name: "Quote Generator",
         description:
             "A Web Application that displays inspiring quotes on every refresh",
@@ -219,7 +244,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 8,
+        id: 9,
         name: "Advanced Todos Application",
         description: "A regular todos application with some extra features",
         image_URL: "/images/todoApp.png",
@@ -230,7 +255,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 9,
+        id: 10,
         name: "Hangman Game (Desktop Only)",
         description: "An interesting hangman game to test your cognitive ability.",
         image_URL: "/images/hangman.png",
@@ -241,7 +266,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 10,
+        id: 11,
         name: "Notes App",
         description: "Keep record of important events, and never forget.",
         image_URL: "/images/notesApp.png",
@@ -252,7 +277,7 @@ export const projects: InterfaceProject[] = [
         isOpen: false,
     },
     {
-        id: 11,
+        id: 12,
         name: "Google-Search Design",
         description:
             "This is a mini-project to rebuild google.com homepage using HTML and SCSS. The goal of this mini-project " +
