@@ -1,6 +1,6 @@
 # Developer Portfolio
 This is a remake of my portfolio: [ellisenobun.com](https://www.ellisenobun.com), 
-which was built using only ReactJS. This remake takes a 
+originally built in vanilla ReactJS. This remake takes a 
 slightly different approach, resulting in a more SEO, 
 accessible and performant outcome.
 
