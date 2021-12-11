@@ -14,7 +14,7 @@ import {FiFigma} from "react-icons/fi";
 import {GiGraduateCap} from "react-icons/gi";
 import {GrGrid} from "react-icons/gr";
 import {RiComputerLine, RiReactjsFill} from "react-icons/ri";
-import {SiAdobeillustrator, SiAdobexd, SiJavascript, SiMaterialdesignicons, SiNextDotJs} from "react-icons/si";
+import {SiAdobeillustrator, SiAdobexd, SiJavascript, SiMaterialdesignicons, SiNextdotjs} from "react-icons/si";
 import {SiTypescript} from "react-icons/si";
 
 // Services
@@ -23,25 +23,25 @@ export const services: InterfaceService[] = [
         Icon: RiComputerLine,
         title: "FrontEnd Web Development",
         tech: ["HTML", "SCSS", "JavaScript", "Reactjs", "Nextjs"],
-        description: `I can build modern, interactive and responsive websites. I am a strong advocate of <q>Mobile first philosophy</q>, <em>SEO</em> and <em>Accessibility</em>.`,
+        description: ``,
     },
     {
         Icon: BiServer,
         title: "Backend Development",
         tech: ["MongoDB", "Postgres", "Express", "Nodejs"],
-        description: `I can handle databases, server and APIs using <em>Express</em> and other popular frameworks.`,
+        description: ``,
     },
     {
         Icon: SiMaterialdesignicons,
         title: "UI/UX Design",
         tech: ["Adobe XD", "Figma", "Illustrator"],
-        description: `I find creative ways to solve UX problems, with the ability to turn an idea into reality. I Develop UI mockups and prototypes  that clearly illustrate how the platform functions and looks like.`,
+        description: ``,
     },
     {
         Icon: AiOutlineApi,
         title: "Content Management Systems",
         tech: ["WordPress", "Contentful"],
-        description: `I can develop site templates and themes within budget, brief and test to QA criteria, using WordPress. I ensure the build is in-line with signed off designs and functionality.`,
+        description: ``,
     },
 ];
 
@@ -49,7 +49,7 @@ export const services: InterfaceService[] = [
 export const experiences: InterfaceExperience[] = [
     {
         job: "Lead Front End Web Developer",
-        company: "Tonic Fusion LLP",
+        company: "Tonic Fusion LLP. London, UK",
         period: "May 2021 - Present"
     },
     {
@@ -116,7 +116,7 @@ export const languages: InterfaceSkill[] = [
         level: "70%",
     },
     {
-      Icon: SiNextDotJs,
+      Icon: SiNextdotjs,
       name: "NextJS",
       level: "70%"
     },
