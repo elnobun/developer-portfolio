@@ -57,6 +57,7 @@ const ProjectCard: FunctionComponent<{
                             {github_URL && (
                                 <a
                                     href={github_URL}
+                                    target="_blank"
                                     className="flex items-center px-4 py-2 space-x-2 text-gray-800 bg-gray-300 rounded dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200"
                                 >
                                     <AiFillGithub size={20}/>
@@ -66,6 +67,7 @@ const ProjectCard: FunctionComponent<{
                             {deployed_URL && (
                                 <a
                                     href={deployed_URL}
+                                    target="_blank"
                                     className="flex items-center px-4 py-2 space-x-2 text-gray-800 bg-gray-300 rounded dark:bg-white hover:bg-gray-400 dark:hover:bg-gray-200"
                                 >
                                     <MdInsertLink size={20}/>
