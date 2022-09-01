@@ -12,14 +12,16 @@ const Sidebar = () => {
     const [isMounted, setIsMounted] = useState(false)
     const {theme, setTheme} = useTheme()
     
+    // useEffect(() => {
+    //     setIsMounted(true)
+    // }, [])
     useEffect(() => {
         setIsMounted(true)
     }, [])
 
     const toggleTheme = () => {
-        if (isMounted) {
-            setTheme(theme === 'light' ? 'dark' : 'light')
-        }
+        if (!isMounted) return null
+        setTheme(theme === 'light' ? 'dark' : 'light')
     }
 
     return (
@@ -75,6 +77,7 @@ const Sidebar = () => {
                     <MdFileDownload/>
                     <span className="ml-2">Download Resume</span>
                 </a>
+                
                 {isMounted && theme === "light" && (
                     <div className="flex items-center justify-center pt-2 my-2">
                         <CgToggleOff onClick={toggleTheme} className="w-10 h-10 mr-2 cursor-pointer"/>
@@ -87,8 +90,10 @@ const Sidebar = () => {
                         <IoMdMoon className="w-6 h-6 text-white"/>
                     </div>
                 )}
+                
+                
                 <p className="text-center dark:text-white">
-                    {theme} Mode
+                    {isMounted && theme} Mode
                 </p>
             </div>
         </>
