@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ellisenobun.com
+
+# Sitemaps
+Sitemap: https://ellisenobun.com/sitemap.xml
