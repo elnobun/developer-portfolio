@@ -9,7 +9,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "framer-motion": "^7.2.1",
+    "framer-motion": "^7.10.3",
     "next": "^12.2.5",
     "next-sitemap": "^3.1.21",
     "next-themes": "^0.2.0",
